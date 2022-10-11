@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-https://j3delacr.github.io/lab_week_2/
+# Lab 3
+https://j3delacr.github.io/fa22-cse110-lab3/
