@@ -24,3 +24,22 @@ hr.title{
 * {
     font-family: 'Courier New', Courier, monospace
 }
+
+#olist1{
+    background-image: url(images/title-cow2.PNG);
+}
+#olist2{
+    background-image: url(images/title-cow3.PNG);
+}
+
+div.olist{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    margin: auto;
+}
