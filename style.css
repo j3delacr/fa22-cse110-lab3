@@ -1,0 +1,26 @@
+/* Style for header */
+header {
+    background-image: url(images/title-cow.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40% 100%;
+    color: whitesmoke;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+hr.title{
+    color: #FFC0CB;
+    width: 16em;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+* {
+    font-family: 'Courier New', Courier, monospace
+}
