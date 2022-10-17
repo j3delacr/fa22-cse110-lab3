@@ -4,7 +4,11 @@
     <title>Meeting Minutes</title>
     <meta name="author" content="Javier Zuniga">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <style>.olist:hover{
+      color: pink;
+    }
+    </style>
   </head>
 
   <body>
@@ -53,16 +57,20 @@
     
     </div>
     <hr>
-    
-    <video width="320" height="240" controls>
-        <source src="images/cow-meeting.mp4" type="video/mp4">
-    </video>
-
-    <br>
-
-    <audio controls>
-        <source src="images/cow-moos.mp3" type="audio/mpeg">
-    </audio>
+    <details>
+      <summary>Audio Recording</summary>
+      <div class="media">
+        <audio class="mediaItem" controls>
+         <source src="images/cow-moos.mp3" type="audio/mpeg">
+        </audio>
+    </details>
+    <details>
+      <summary>Video Recording</summary>
+        <video class="mediaItem" width="320" height="240" controls>
+          <source src="images/cow-meeting.mp4" type="video/mp4">
+        </video>
+    </details>
+    </div>
 
 
     <form>
@@ -94,11 +102,12 @@ Have any comments questions or concerns? <en>Let us know</en>.
 
     <footer>
       <details>
-        <summary>Author</summary>
-        <p>Javier Zuniga</p>
+        <summary>Contact US:</summary>
+        <p>Author: Javier Zuniga</p>
+
+        <p><a href="mailto:j3delacr@ucsd.edu">Email</a></p>
       </details>
 
-      <p><a href="mailto:j3delacr@ucsd.edu">Contact</a></p>
       <img src="images/cow.jpg" alt="Cow drawing" width="160">
     </footer> 
   </body>
