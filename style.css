@@ -25,14 +25,14 @@ hr.title{
     font-family: 'Courier New', Courier, monospace
 }
 
-div.olist1{
+#olist1{
     background-image: url(images/title-cow2.PNG);
 }
-div.olist2{
+#olist2{
     background-image: url(images/title-cow3.PNG);
 }
 
-div.olist1,div.olist2{
+div.olist{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
